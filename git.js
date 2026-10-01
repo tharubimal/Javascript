@@ -58,10 +58,8 @@
 //? remote
 
 //? git remote -v -> list all remote repositories
-//? git remote add <remote_name> <remote_url> -> add remote repository
-//? git remote remove <remote_name> -> remove remote repository
+//? git remote add <branch_name> <remote_url> -> add remote repository
+//? git remote remove <branch_name> -> remove remote repository
 
-//? git push <remote_name> <branch_name> -> push changes to remote repository
-//? git pull <remote_name> <branch_name> -> pull changes from remote repository
-
-//? git push origin main -> push changes to remote repository
+//? git pull origin <branch_name> -> pull changes from remote repository
+//? git push origin <branch_name> -> push changes to remote repository
