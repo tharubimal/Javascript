@@ -25,7 +25,7 @@
 //! working flow
 //* changes ->staging area [ready state]-> new version
 //* working directory -> staging area -> local repository
-//? working dirctory -> git add -> staging area -> git commit -m "commit message" -> local repository
+//! working dirctory -> git add -> staging area -> git commit -m "commit message" -> local repository -> git push -> remote repository
 //? git add <file_path> -> add file to staging area
 //? git commit -m "commit message" -> commit changes to local repo
 //? git status -> check status of files
@@ -52,3 +52,16 @@
 
 
 //* merge conflict - when multiple people are working on the same file and git is unable to automatically merge the changes
+
+
+//! git hub
+//? remote
+
+//? git remote -v -> list all remote repositories
+//? git remote add <remote_name> <remote_url> -> add remote repository
+//? git remote remove <remote_name> -> remove remote repository
+
+//? git push <remote_name> <branch_name> -> push changes to remote repository
+//? git pull <remote_name> <branch_name> -> pull changes from remote repository
+
+//? git push origin main -> push changes to remote repository
