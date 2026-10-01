@@ -63,3 +63,18 @@
 
 //? git pull origin <branch_name> -> pull changes from remote repository
 //? git push origin <branch_name> -> push changes to remote repository
+
+
+//* history
+//? git log -> show commit history
+//? git log --oneline -> show commit history in one line
+
+//? git log --graph -> show commit history in graph format
+// git log --oneline --graph -> show commit history in one line and graph format
+
+//? git log --stat -> show commit history with file changes
+
+//? git log test..main -> show commit history of test branch that is not in main branch
+// git log test..main --oneline -> show commit history of test branch that is not in main branch in one line
+
+//? git log origin/main..origin/test -> show commit history of test branch that is not in main branch on remote repository
