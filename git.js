@@ -41,3 +41,14 @@
 //! merge
 //? git merge <branch_name> -> merge branch into current branch
 
+//* merge methods
+//? 1. fast forward - when the current branch has no new commits since the branch was created, git will simply move the current branch pointer to the new branch pointer
+// main -> A -> B -> C -> D
+// test         B -> C -> D
+
+//? 2. 3-way merge - when the current branch has new commits since the branch was created, git will create a new commit that combines the changes from both branches
+// main -> A -> B -> E -> F
+// test         B -> C -> D
+
+
+//* merge conflict - when multiple people are working on the same file and git is unable to automatically merge the changes
