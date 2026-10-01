@@ -78,3 +78,14 @@
 // git log test..main --oneline -> show commit history of test branch that is not in main branch in one line
 
 //? git log origin/main..origin/test -> show commit history of test branch that is not in main branch on remote repository
+
+//? git log --all -> show commit history of all branches
+
+//* stash
+// git stash list -> list all stashes
+// git stash -m "stash message" -> create new stash with message
+// git stash apply -> apply the latest stash
+// git stash apply stash@{0} -> apply the specific stash
+// git stash drop <stash_id> -> drop the specific stash
+// git stash clear -> clear all stashes
+// git stash pop -> apply the latest stash and drop it  
