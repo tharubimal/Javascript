@@ -1,0 +1,43 @@
+//! git & github
+//git - distributed version control system + branching & merging
+//github - web-based hosting service for version control using git
+
+//* repository / repo[folder + git history]
+// local repo - on your computer
+// remote repo - on github
+
+//! git commands
+//* config
+
+//? git config --global --list -> list git global config
+//? git config --global user.name "your name" -> set git global username
+//? git config --global user.email "your email" -> set git global email
+//? git config --global core.editor "<editor>" -> set git global editor
+//? git config --global core.autocrlf true -> set git global autocrlf
+//? git config --global init.defaultBranch main -> set git global default branch
+//? git config --global pull.rebase false -> set git global pull rebase
+
+
+
+//* initialize empty git repository
+//? git init -> initialize empty git repository
+
+//! working flow
+//* changes ->staging area [ready state]-> new version
+//* working directory -> staging area -> local repository
+//? working dirctory -> git add -> staging area -> git commit -m "commit message" -> local repository
+//? git add <file_path> -> add file to staging area
+//? git commit -m "commit message" -> commit changes to local repo
+//? git status -> check status of files
+
+// git add <file_path> -> add file to staging area
+// git add . -> add all files to staging area
+
+//! branch
+//? git branch -> list all local branches
+//? git branch <branch_name> -> create new branch from current branch
+//? git switch <branch_name> -> switch to branch
+
+//! merge
+//? git merge <branch_name> -> merge branch into current branch
+
