@@ -36,7 +36,9 @@
 //! branch
 //? git branch -> list all local branches
 //? git branch <branch_name> -> create new branch from current branch
-//? git switch <branch_name> -> switch to branch
+
+//* git switch <branch_name> -> switch to branch
+// git switch -c <branch_name> -> create new branch and switch to it
 
 //! merge
 //? git merge <branch_name> -> merge branch into current branch
@@ -89,3 +91,6 @@
 // git stash drop <stash_id> -> drop the specific stash
 // git stash clear -> clear all stashes
 // git stash pop -> apply the latest stash and drop it  
+
+//! PR -> Pull request 
+// when you want to merge your changes from your branch to another branch, you create a pull request. The pull request will be reviewed by the team members and if approved, it will be merged into the target branch.
